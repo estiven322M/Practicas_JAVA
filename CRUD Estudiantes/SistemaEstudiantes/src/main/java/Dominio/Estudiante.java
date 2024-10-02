@@ -1,7 +1,7 @@
 package Dominio;
 
 public class Estudiante {
-
+    //Atributos de la clase
     private int idEstudiante;
     private String nombre;
     private String apellido;
@@ -12,11 +12,11 @@ public class Estudiante {
 
     }
 
-    public Estudiante(int idEstudiante) {//constructor solo para buscar estudiante por ID
+    public Estudiante(int idEstudiante) {//Constructor solo para buscar estudiante por ID
         this.idEstudiante = idEstudiante;
     }
 
-    public Estudiante(String nombre, String apellido, String telefono, String email) { //constructor para todos los atributos
+    public Estudiante(String nombre, String apellido, String telefono, String email) { //Constructor para agregar estudiantes
 
         this.nombre = nombre;
         this.apellido = apellido;
@@ -24,7 +24,7 @@ public class Estudiante {
         this.email = email;
     }
 
-    public Estudiante(int idEstudiante, String nombre, String apellido, String telefono, String email) {
+    public Estudiante(int idEstudiante, String nombre, String apellido, String telefono, String email) { //Constructor para modificar estudiantes
         this.idEstudiante = idEstudiante;
         this.nombre = nombre;
         this.apellido = apellido;
